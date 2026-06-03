@@ -1,0 +1,13 @@
+package day8;
+
+public abstract class Tiger implements Animal{
+	public void eat() {
+		System.out.println("Tiger Eat.");
+	}
+	
+	public void sleep() {
+		System.out.println("Tiger Sleep.");
+	}
+	
+	
+}
