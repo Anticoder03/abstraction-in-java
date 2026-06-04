@@ -17,8 +17,18 @@ public class InterfaceDriverApp {
 		Tiger t2 = new BengolTiger();
 		BengolTiger t3 = new BengolTiger();
 		
-		t1.eat();
-		t2.sleep();
-		t3.run();
+//		t1.eat();
+//		t2.sleep();
+//		t3.run();
+		
+//		t1.hunt();
+//		t2.hunt(); not work because its a method og b tiger
+//		t3.hunt();
+		
+		Shape f1 = new FootballField();
+		Rect f2 = new FootballField();
+		FootballField f3 = new FootballField();
+		
+		
 	}
 }
